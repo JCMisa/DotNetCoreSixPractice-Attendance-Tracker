@@ -1,0 +1,64 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.text-orangered{
+    color:orangered;
+}
+
+.text-white{
+    color:white;
+}
+
+.fs-20{
+    font-size:20px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.ml-50{
+    margin-left : 50px;
+}
+
+.mt-25{
+    margin-top:25px;
+}
+
+.mt-50{
+    margin-top : 50px;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.border-orangered{
+    border:1px solid orangered;
+}
+
+.border-darkGray {
+    border: 1px solid #262729;
+}
